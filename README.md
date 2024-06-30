@@ -34,8 +34,6 @@ Ini adalah website login dan juga perhitungan angka 1-100.
     php artisan serve
     ```
 
-Sekarang Anda dapat mengakses aplikasi di browser melalui alamat [http://localhost:8000](http://localhost:8000).
-
 ## Screenshots
 
 ### Tampilan Home/Menu Utama
