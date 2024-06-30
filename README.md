@@ -14,12 +14,22 @@ Ini adalah website login dan juga perhitungan angka 1-100.
     composer install
     ```
 
-2. Migrasi database:
+2. Salin file `env.example` dan ubah namanya menjadi `.env`:
+    ```bash
+    cp .env.example .env
+    ```
+
+3. Generate key aplikasi:
+    ```bash
+    php artisan key:generate
+    ```
+
+4. Migrasi database:
     ```bash
     php artisan migrate
     ```
 
-3. Jalankan server:
+5. Jalankan server:
     ```bash
     php artisan serve
     ```
@@ -40,4 +50,5 @@ Sekarang Anda dapat mengakses aplikasi di browser melalui alamat [http://localho
 ### Halaman Perhitungan Angka
 ![Halaman Perhitungan Angka](image/angka.png)
 
-![alt text](database.png)
+### Struktur Database
+![Struktur Database](image/database.png)
