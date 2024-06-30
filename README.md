@@ -39,3 +39,5 @@ Sekarang Anda dapat mengakses aplikasi di browser melalui alamat [http://localho
 
 ### Halaman Perhitungan Angka
 ![Halaman Perhitungan Angka](image/angka.png)
+
+![alt text](database.png)
